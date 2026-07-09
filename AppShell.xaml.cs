@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
-        }
+
+        Routing.RegisterRoute(nameof(ShopPage), typeof(ShopPage));
+        Routing.RegisterRoute(nameof(AccountPage), typeof(AccountPage));
     }
 }
