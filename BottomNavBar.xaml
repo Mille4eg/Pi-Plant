@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Pi_Plant.BottomNavBar">
+
+    <Border
+        BackgroundColor="White"
+        Stroke="#DCECEC"
+        StrokeThickness="1"
+        StrokeShape="RoundRectangle 28"
+        Padding="8"
+        Margin="20,8">
+
+        <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+
+            <Button
+                Grid.Column="0"
+                Text="Home"
+                BackgroundColor="#EAF6F7"
+                TextColor="#103B4D"
+                CornerRadius="20"
+                Clicked="Home_Clicked"/>
+
+            <Button
+                Grid.Column="1"
+                Text="Shop"
+                BackgroundColor="#EAF6F7"
+                TextColor="#103B4D"
+                CornerRadius="20"
+                Clicked="Shop_Clicked"/>
+
+            <Button
+                Grid.Column="2"
+                Text="Account"
+                BackgroundColor="#EAF6F7"
+                TextColor="#103B4D"
+                CornerRadius="20"
+                Clicked="Account_Clicked"/>
+
+        </Grid>
+
+    </Border>
+
+</ContentView>

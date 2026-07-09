@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pi-Plant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4e88b67523313ec749226f2382f366010e696387")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pi-Plant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pi-Plant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

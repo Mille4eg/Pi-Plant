@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Pi_Plant.AccountPage"
+    Title="Account"
+    BackgroundColor="#EAF6F7">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label
+                Text="Pi-Plant Account"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="#103B4D"/>
+
+            <Frame
+                CornerRadius="20"
+                BackgroundColor="White"
+                Padding="20">
+
+                <VerticalStackLayout Spacing="12">
+
+                    <Label
+                        Text="Profile"
+                        FontSize="26"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        TextColor="#46957D"/>
+
+                    <BoxView HeightRequest="1" Color="#DCECEC"/>
+
+                    <Label Text="Name: Friend" FontSize="18"/>
+                    <Label Text="Plant: Pi-Plant" FontSize="18"/>
+                    <Label Text="Current Goal: 9 cups of water" FontSize="18"/>
+                    <Label Text="Step Goal: 8,000 steps" FontSize="18"/>
+                    <Label Text="Version: 0.1 Alpha" FontSize="18"/>
+
+                    <Label
+                        Text="Saving is currently a demo feature for this version."
+                        TextColor="#5E8A92"
+                        HorizontalTextAlignment="Center"/>
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Button
+                Text="Save Data"
+                BackgroundColor="#46957D"
+                TextColor="White"
+                Clicked="SaveButton_Clicked"/>
+
+            <Button
+                Text="Back to Shop"
+                BackgroundColor="#DCECEC"
+                TextColor="#103B4D"
+                Clicked="ShopButton_Clicked"/>
+
+            <Button
+                Text="Back Home"
+                BackgroundColor="#DCECEC"
+                TextColor="#103B4D"
+                Clicked="HomeButton_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

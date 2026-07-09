@@ -46,9 +46,21 @@ So, hopefully, Pi-plant helps take a step better.
 * stetch of the day suggestions
 * possibly a sleep tracker but I am not a huge fan of those
 * COIN SYSTEM EARN COINS FOR WATER AND THEN BUY OTHER PLANTS - hell yeah
-* little shop of....plants. Not horrors definitely not.
+* little shop of....plants. Not horrors definitely not. ✅ but WIP 
 * workout tracker
 
 I would like those to be seperate pages tho.
 
-I don't think I need a wallet connection or anything with Pi-plant.
+I don't think I need a wallet connection or anything with Pi-plant. 
+
+
+# Updates
+
+July 2026 
+• finally added hecking nav bar and tabs! they work now and don't crash the entire thing and blow up your phone! Wow! Isn't that awesome! 
+• decided I don't want the wallet, heck the wallet, earn your coins the old fashion way. Drink the water >:D 
+• water did in fact turn the freaking frogs gay 
+• they're so gay now 
+• who even reads the README.md anyway?
+• not me (i do :C )
+
